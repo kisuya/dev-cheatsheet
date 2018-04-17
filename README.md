@@ -1,2 +1,14 @@
-# development-miscellaneous
-development code samples
+# Development Cheat Sheets
+
+
+### Languages
+* C++
+* Python
+
+### Scripts
+* Bash
+* Windows cmd
+
+### Libraries
+* OpenCV
+* Numpy

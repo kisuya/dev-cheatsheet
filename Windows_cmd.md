@@ -1,4 +1,4 @@
-# Windows CMD Examples
+# Windows cmd
 
 ## remote desktop
 
@@ -10,7 +10,8 @@ start "" mstsc /v:"xxx.xxx.xxx.xxx:port"
 
 ## batch file run as administrator
 
-use PowerShell to run b.bat as administrator from a.bat [Reference link](https://stackoverflow.com/a/27479373)
+use PowerShell to run b.bat as administrator from a.bat 
+[https://stackoverflow.com/a/27479373](https://stackoverflow.com/a/27479373)
 
 ```cmd
 @echo off
@@ -20,7 +21,7 @@ Powershell -Command "& { Start-Process \"%mydir%b.bat\" -verb RunAs}"
 ```
 
 ## start flask with python on windows
-[Reference](http://www.flask.moe/windows#apache_mod_wsgi)
+[http://www.flask.moe/windows#apache_mod_wsgi](http://www.flask.moe/windows#apache_mod_wsgi)
 
 ```cmd
 @echo off
@@ -32,7 +33,7 @@ CMD /k "cd /d %currentDir%..\env\Scripts & activate & python %currentDir%..\src\
 ```
 
 ## check process running
-[Reference](https://stackoverflow.com/a/1329790)
+[https://stackoverflow.com/a/1329790](https://stackoverflow.com/a/1329790)
 
 **2>NUL ?** [link](https://stackoverflow.com/a/19599228)
 
